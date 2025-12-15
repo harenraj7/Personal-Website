@@ -74,26 +74,50 @@ export default function Home() {
 
         <div className="mt-5 grid gap-4 sm:grid-cols-2">
           <Link
-            href="/projects/nusclimate"
-            className="block rounded-2xl border p-5 hover:bg-gray-50"
-          >
-            <div className="text-xl font-semibold">NUSClimate (LTA Project)</div>
-            <p className="mt-2 text-gray-600">
-              An online prediction market built under LTA's supervision to study and improve
-              Singaporean youths’ knowledge of climate change.
-            </p>
-          </Link>
+  href="/projects/nusclimate"
+  className="block rounded-2xl border p-5 hover:bg-gray-50"
+>
+  <div className="flex items-center justify-between gap-6">
+    <div>
+      <div className="text-xl font-semibold">NUSClimate (LTA Project)</div>
+      <p className="mt-2 text-gray-600">
+        An online prediction market built under LTA's supervision to study and
+        improve Singaporean youths’ knowledge of climate change.
+      </p>
+    </div>
+
+    <Image
+      src="/images/nusclimate_1.png"
+      alt="NUSClimate"
+      width={200}
+      height={200}
+      className="h-20 w-20 shrink-0 rounded-xl object-contain"
+    />
+  </div>
+</Link>
 
           <Link
-            href="/projects/academic-planner"
-            className="block rounded-2xl border p-5 hover:bg-gray-50"
-          >
-            <div className="text-xl font-semibold">Sample Academic Planner</div>
-            <p className="mt-2 text-gray-600">
-              Excel template to automatically and systematically track graduation
-              requirements and calculate pre- and post- S/U CAPs.
-            </p>
-          </Link>
+  href="/projects/academic-planner"
+  className="block rounded-2xl border p-5 hover:bg-gray-50"
+>
+  <div className="flex items-center justify-between gap-6">
+    <div>
+      <div className="text-xl font-semibold">Sample Academic Planner</div>
+      <p className="mt-2 text-gray-600">
+        Excel template to automatically and systematically track graduation requirements
+        and calculate pre- and post- S/U CAPs.
+      </p>
+    </div>
+
+    <Image
+      src="/images/excel_logo.png"
+      alt="Academic Planner"
+      width={200}
+      height={200}
+      className="h-20 w-20 shrink-0 rounded-xl object-contain"
+    />
+  </div>
+</Link>
         </div>
       </section>
 
