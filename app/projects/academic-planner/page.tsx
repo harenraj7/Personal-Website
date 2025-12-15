@@ -3,17 +3,11 @@ import Image from "next/image";
 
 export default function AcademicPlannerPage() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-gradient-to-b from-gray-50 to-white">
-      <div className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute -top-24 -left-24 h-80 w-80 rounded-full bg-blue-200/40 blur-3xl" />
-        <div className="absolute top-20 -right-24 h-96 w-96 rounded-full bg-purple-200/40 blur-3xl" />
-        <div className="absolute bottom-0 left-1/3 h-80 w-80 rounded-full bg-emerald-200/30 blur-3xl" />
-      </div>
-
+    <main className="min-h-screen bg-sky-50">
       <div className="mx-auto max-w-4xl px-6 py-16">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 rounded-xl border bg-white/70 px-4 py-2 text-lg font-semibold backdrop-blur hover:bg-gray-50/80"
+          className="inline-flex items-center gap-2 rounded-xl border bg-white px-4 py-2 text-lg font-semibold hover:bg-gray-50"
         >
           <span aria-hidden>←</span>
           <span>Back</span>
@@ -41,25 +35,24 @@ export default function AcademicPlannerPage() {
         </p>
 
         <div className="mt-4 flex justify-center">
-  <Image
-    src="/images/acad_planner1.png"
-    alt="Modules"
-    width={1600}
-    height={900}
-    className="w-full sm:w-1/2 mx-auto rounded-2xl border object-cover"
-  />
-</div>
+          <Image
+            src="/images/acad_planner1.png"
+            alt="Modules"
+            width={1600}
+            height={900}
+            className="w-full sm:w-1/2 rounded-2xl border object-cover"
+          />
+        </div>
 
-<div className="mt-4 flex justify-center">
-  <Image
-    src="/images/acad_planner2.png"
-    alt="GPA calculation"
-    width={1600}
-    height={900}
-    className="w-full sm:w-1/2 mx-auto rounded-2xl border object-cover"
-  />
-</div>
-
+        <div className="mt-4 flex justify-center">
+          <Image
+            src="/images/acad_planner2.png"
+            alt="GPA calculation"
+            width={1600}
+            height={900}
+            className="w-full sm:w-1/2 rounded-2xl border object-cover"
+          />
+        </div>
 
         <div className="mt-8">
           <a
