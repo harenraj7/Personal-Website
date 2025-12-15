@@ -36,7 +36,7 @@ export default function AcademicPlannerPage() {
     alt="GPA calculation"
     width={1600}
     height={900}
-    className="w-full sm:w-1/3 rounded-2xl border object-contain"
+    className="w-full sm:w-2/3 rounded-2xl border object-contain"
   />
 </div>
 
