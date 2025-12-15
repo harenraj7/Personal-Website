@@ -56,7 +56,7 @@ export default function Home() {
             href="/projects/nusclimate"
             className="block rounded-2xl border p-5 hover:bg-gray-50"
           >
-            <div className="font-medium">NUSClimate [LTA Project]</div>
+            <div className="font-medium">NUSClimate (LTA Project)</div>
             <p className="mt-2 text-gray-600">
               An online prediction market built with LTA to survey and nudge Singaporean youths’ climate knowledge.
             </p>
