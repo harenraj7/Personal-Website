@@ -18,7 +18,13 @@ export const metadata: Metadata = {
     template: "%s — Haren Raj",
   },
   description: "Business Analytics @ NUS — portfolio",
-  icons: {},
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png" }],
+  },
 };
 
 export default function RootLayout({
