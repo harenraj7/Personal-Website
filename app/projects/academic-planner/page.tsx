@@ -20,6 +20,26 @@ export default function AcademicPlannerPage() {
         S/U CAPs.
       </p>
 
+     <div className="mt-4 flex justify-center">
+  <Image
+    src="/images/acad_planner1.png"
+    alt="Modules"
+    width={1600}
+    height={900}
+    className="w-full sm:w-1/2 rounded-2xl border object-contain"
+  />
+</div>
+
+<div className="mt-4 flex justify-center">
+  <Image
+    src="/images/acad_planner2.png"
+    alt="GPA calculation"
+    width={1600}
+    height={900}
+    className="w-full sm:w-1/3 rounded-2xl border object-contain"
+  />
+</div>
+
       <p className="mt-4 text-gray-600 whitespace-pre-line">
         But I didn’t do more work than I need to just for fun, I did it to make
         other people’s lives easier too. I’ve uploaded the template below for anyone
@@ -28,22 +48,6 @@ export default function AcademicPlannerPage() {
         macro titled “RefreshColourRouting” to automatically tabulate how many module
         credits fulfil each requirement.
       </p>
-
-      <Image
-        src="/images/acad_planner1.png"
-        alt="Modules"
-        width={1600}
-        height={900}
-        className="mt-4 w-full rounded-2xl border object-cover"
-      />
-
-      <Image
-        src="/images/acad_planner2.png"
-        alt="GPA calculation"
-        width={1600}
-        height={900}
-        className="mt-4 w-full rounded-2xl border object-cover"
-      />
 
       <div className="mt-8">
         <a
