@@ -43,8 +43,7 @@ export default function Home() {
       <section id="about" className="mt-16">
         <h2 className="text-2xl font-semibold">About me</h2>
         <p className="mt-3 text-gray-600">
-  Hi! I’m Haren and I love listening to different genres of music and learning
-  about different cultures, but that’s not what you’re here to read about.
+  Hi! Welcome to my website. I’m Haren and I'm passionate about music, sports, culture, and adventure.
 </p>
 
 <div className="mt-4 grid gap-3 sm:grid-cols-2">
@@ -56,7 +55,7 @@ export default function Home() {
     className="w-full rounded-2xl border object-cover"
   />
   <Image
-    src="/images/self-photo2-updated.png"
+    src="/images/self-photo3-updated.png"
     alt="self photo 2"
     width={1600}
     height={1200}
@@ -65,10 +64,9 @@ export default function Home() {
 </div>
 
 <p className="mt-6 text-gray-600">
-  Welcome to my website. It’ll give you some insight into what I’ve been working
-  on in my free time as well as my skills and career goals.
+  But that's not what you're here to find out about. This website is meant to give whoever's reading an idea on what I've been working
+  on in my free time as well as the skills I've developed along the way.
 </p>
-
       </section>
 
       <section id="projects" className="mt-16">
@@ -81,8 +79,8 @@ export default function Home() {
           >
             <div className="text-xl font-semibold">NUSClimate (LTA Project)</div>
             <p className="mt-2 text-gray-600">
-              An online prediction market built with LTA to study and improve
-              Singaporean youths’ climate knowledge.
+              An online prediction market built under LTA's supervision to study and improve
+              Singaporean youths’ knowledge of climate change.
             </p>
           </Link>
 
