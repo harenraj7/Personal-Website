@@ -86,9 +86,9 @@ export default function Home() {
       <section id="extracurriculars" className="mt-16">
   <h2 className="text-2xl font-semibold">Extracurriculars</h2>
 
-  <div className="mt-5 grid gap-4 md:grid-cols-2">
+  <div className="mt-5 grid gap-4 md:grid-cols-2 md:items-start">
     {/* Football card */}
-    <div className="rounded-2xl border p-4">
+    <div className="h-fit rounded-2xl border p-4">
       <button
         type="button"
         onClick={() => setOpenId((prev) => (prev === "football" ? null : "football"))}
