@@ -85,7 +85,7 @@ export default function Home() {
         <div className="mt-5 grid gap-4 md:grid-cols-2">
           <details className="rounded-2xl border p-4">
             {/* Arrow to the left of the title */}
-            <summary className="group list-none cursor-pointer">
+            <summary className="group cursor-pointer list-none [&::-webkit-details-marker]:hidden">
   <div className="flex items-center justify-between gap-4">
     <div className="flex items-center gap-3">
       <span className="text-lg transition-transform duration-200 group-open:rotate-90">
@@ -133,7 +133,7 @@ export default function Home() {
           </details>
 
           <details className="rounded-2xl border p-4">
-            <summary className="group list-none cursor-pointer">
+            <summary className="group cursor-pointer list-none [&::-webkit-details-marker]:hidden">
   <div className="flex items-center justify-between gap-4">
     <div className="flex items-center gap-3">
       <span className="text-lg transition-transform duration-200 group-open:rotate-90">
