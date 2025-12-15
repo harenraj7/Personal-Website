@@ -19,11 +19,8 @@ export const metadata: Metadata = {
   },
   description: "Business Analytics @ NUS — portfolio",
   icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/icon.png", type: "image/png" },
-    ],
-    apple: [{ url: "/apple-icon.png" }],
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
 };
 
