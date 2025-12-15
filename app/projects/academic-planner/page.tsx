@@ -30,7 +30,7 @@ export default function AcademicPlannerPage() {
       <div className="mt-8">
         <a
           className="inline-block rounded-xl bg-black px-4 py-2 text-white"
-          href="/images/sample-acad-planner.xlsm"
+          href="/images/sample_acad_planner.xlsm"
           download
         >
           Download the Excel template
