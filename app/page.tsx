@@ -87,8 +87,6 @@ export default function Home() {
               <div className="flex items-center justify-between gap-4">
                 <div>
                   <div className="font-medium">NUS College Football</div>
-                  <div className="mt-2 text-gray-600">Click to expand</div>
-                </div>
 
                 <Image
                   src="/images/footballnet.jpeg"
@@ -134,9 +132,6 @@ export default function Home() {
                   <div className="font-medium">
                     NUS College Peer Mentorship Programme
                   </div>
-                  <div className="mt-2 text-gray-600">Click to expand</div>
-                </div>
-
                 <Image
                   src="/images/nusc_logo.png"
                   alt="NUS College logo"
