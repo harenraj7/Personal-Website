@@ -10,9 +10,7 @@ export default function Home() {
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-16">
-      <nav className="flex items-center justify-between">
-        <div className="font-semibold">Haren Raj</div>
-
+      <nav className="flex items-center justify-end">
         <div className="flex gap-4 text-sm text-gray-600">
           <a href="#about" className="hover:text-black">
             About me
@@ -23,23 +21,14 @@ export default function Home() {
           <a href="#extracurriculars" className="hover:text-black">
             Extracurriculars
           </a>
-          <a href="#footer" className="hover:text-black">Reach me</a>
         </div>
       </nav>
 
       <header className="mt-14">
-        <h1 className="text-4xl font-bold tracking-tight">
+        <h1 className="text-5xl font-bold tracking-tight">Haren Raj</h1>
+        <p className="mt-3 text-2xl font-semibold text-gray-600">
           NUS College and Business Analytics Sophomore
-        </h1>
-
-        <div className="mt-6 flex gap-3">
-          <a className="rounded-xl bg-black px-4 py-2 text-white" href="#projects">
-            View projects
-          </a>
-          <a className="rounded-xl border px-4 py-2" href="#footer">
-  Reach me
-</a>
-        </div>
+        </p>
       </header>
 
       <section id="about" className="mt-16">
@@ -75,157 +64,158 @@ export default function Home() {
           >
             <div className="text-xl font-semibold">Sample Academic Planner</div>
             <p className="mt-2 text-gray-600">
-              Excel template to automatically and systematically track graduation requirements and
-              calculate pre- and post- S/U CAPs.
+              Excel template to automatically and systematically track graduation
+              requirements and calculate pre- and post- S/U CAPs.
             </p>
           </Link>
         </div>
       </section>
 
       <section id="extracurriculars" className="mt-16">
-  <h2 className="text-2xl font-semibold">Extracurriculars</h2>
+        <h2 className="text-2xl font-semibold">Extracurriculars</h2>
 
-  <div className="mt-5 grid gap-4 md:grid-cols-2 md:items-start">
-    {/* Football card */}
-    <div className="h-fit rounded-2xl border p-4">
-  <button
-    type="button"
-    onClick={() => setIsFootballOpen((v) => !v)}
-    className="w-full text-left"
-  >
-    <div className="flex items-center justify-between gap-4">
-      <div className="flex items-center gap-3">
-        <span
-          className={`text-lg transition-transform duration-200 ${
-            isFootballOpen ? "rotate-90" : ""
-          }`}
-        >
-          ▶
-        </span>
-        <div className="text-xl font-semibold">NUS College Football</div>
-      </div>
+        <div className="mt-5 grid gap-4 md:grid-cols-2 md:items-start">
+          {/* Football card */}
+          <div className="h-fit rounded-2xl border p-4">
+            <button
+              type="button"
+              onClick={() => setIsFootballOpen((v) => !v)}
+              className="w-full text-left"
+            >
+              <div className="flex items-center justify-between gap-4">
+                <div className="flex items-center gap-3">
+                  <span
+                    className={`text-lg transition-transform duration-200 ${
+                      isFootballOpen ? "rotate-90" : ""
+                    }`}
+                  >
+                    ▶
+                  </span>
+                  <div className="text-xl font-semibold">NUS College Football</div>
+                </div>
 
-      <Image
-        src="/images/footballnet.jpeg"
-        alt="Football"
-        width={128}
-        height={128}
-        className="h-20 w-20 shrink-0 rounded-lg object-contain"
-      />
-    </div>
-  </button>
+                <Image
+                  src="/images/footballnet.jpeg"
+                  alt="Football"
+                  width={128}
+                  height={128}
+                  className="h-20 w-20 shrink-0 rounded-lg object-contain"
+                />
+              </div>
+            </button>
 
-  {isFootballOpen && (
-    <div className="mt-4 text-gray-600">
-      <p>
-        As part of NUS College’s Football team, I was fielded for NUS’ Inter Faculty
-        and Inter College Games in AY 24/25. We even managed to clinch silver medals
-        for the Inter College Games. I’m looking forward to competing more with this team.
-      </p>
+            {isFootballOpen && (
+              <div className="mt-4 text-gray-600">
+                <p>
+                  As part of NUS College’s Football team, I was fielded for NUS’
+                  Inter Faculty and Inter College Games in AY 24/25. We even
+                  managed to clinch silver medals for the Inter College Games.
+                  I’m looking forward to competing more with this team.
+                </p>
 
-      <div className="mt-4 grid gap-3">
-        <Image
-          src="/images/Football_1.JPEG"
-          alt="NUS College Football photo 1"
-          width={1600}
-          height={1200}
-          className="w-full rounded-xl border object-cover"
-        />
-        <Image
-          src="/images/Football_2.JPG"
-          alt="NUS College Football photo 2"
-          width={1600}
-          height={1200}
-          className="w-full rounded-xl border object-cover"
-        />
-      </div>
-    </div>
-  )}
-</div>
+                <div className="mt-4 grid gap-3">
+                  <Image
+                    src="/images/Football_1.JPEG"
+                    alt="NUS College Football photo 1"
+                    width={1600}
+                    height={1200}
+                    className="w-full rounded-xl border object-cover"
+                  />
+                  <Image
+                    src="/images/Football_2.JPG"
+                    alt="NUS College Football photo 2"
+                    width={1600}
+                    height={1200}
+                    className="w-full rounded-xl border object-cover"
+                  />
+                </div>
+              </div>
+            )}
+          </div>
 
+          {/* Mentorship card */}
+          <div className="h-fit rounded-2xl border p-4">
+            <button
+              type="button"
+              onClick={() => setIsMentorshipOpen((v) => !v)}
+              className="w-full text-left"
+            >
+              <div className="flex items-center justify-between gap-4">
+                <div className="flex items-center gap-3">
+                  <span
+                    className={`text-lg transition-transform duration-200 ${
+                      isMentorshipOpen ? "rotate-90" : ""
+                    }`}
+                  >
+                    ▶
+                  </span>
+                  <div className="text-xl font-semibold">
+                    NUS College Peer Mentorship Programme
+                  </div>
+                </div>
 
-    {/* Mentorship card */}
-    <div className="h-fit rounded-2xl border p-4">
-  <button
-    type="button"
-    onClick={() => setIsMentorshipOpen((v) => !v)}
-    className="w-full text-left"
-  >
-    <div className="flex items-center justify-between gap-4">
-      <div className="flex items-center gap-3">
-        <span
-          className={`text-lg transition-transform duration-200 ${
-            isMentorshipOpen ? "rotate-90" : ""
-          }`}
-        >
-          ▶
-        </span>
-        <div className="text-xl font-semibold">
-          NUS College Peer Mentorship Programme
+                <Image
+                  src="/images/nusc_logo.png"
+                  alt="NUS College logo"
+                  width={128}
+                  height={128}
+                  className="h-20 w-20 shrink-0 rounded-lg object-contain"
+                />
+              </div>
+            </button>
+
+            {isMentorshipOpen && (
+              <div className="mt-4 text-gray-600">
+                <p>
+                  NUS College runs a programme every year where incoming freshmen
+                  are paired with a senior taking a similar programme to help
+                  answer any questions regarding university, campus life, their
+                  major or NUS College. As someone who benefitted from this
+                  programme greatly as a freshman, I decided to join it in my
+                  sophomore year as the Faculty Coordinator for the School of
+                  Computing. I matched mentees to mentors, coordinated with
+                  professors, and trained mentors on how to advise their mentees.
+                </p>
+
+                <p className="mt-4">
+                  For more information on this programme, click the link{" "}
+                  <a
+                    className="underline"
+                    href="https://nuscollege.nus.edu.sg/academics/peer-mentoring/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    here
+                  </a>
+                  !
+                </p>
+              </div>
+            )}
+          </div>
         </div>
-      </div>
-
-      <Image
-        src="/images/nusc_logo.png"
-        alt="NUS College logo"
-        width={128}
-        height={128}
-        className="h-20 w-20 shrink-0 rounded-lg object-contain"
-      />
-    </div>
-  </button>
-
-  {isMentorshipOpen && (
-    <div className="mt-4 text-gray-600">
-      <p>
-        NUS College runs a programme every year where incoming freshmen are paired with a
-        senior taking a similar programme to help answer any questions regarding university,
-        campus life, their major or NUS College. As someone who benefitted from this programme
-        greatly as a freshman, I decided to join it in my sophomore year as the Faculty
-        Coordinator for the School of Computing. I matched mentees to mentors, coordinated
-        with professors, and trained mentors on how to advise their mentees.
-      </p>
-
-      <p className="mt-4">
-        For more information on this programme, click the link{" "}
-        <a
-          className="underline"
-          href="https://nuscollege.nus.edu.sg/academics/peer-mentoring/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          here
-        </a>
-        !
-      </p>
-    </div>
-  )}
-</div>
-  </div>
-</section>
-
+      </section>
 
       <footer id="footer" className="mt-20 border-t pt-8 text-sm text-gray-600">
-  <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-    <p>
-      Email:{" "}
-      <a className="underline" href="mailto:e1398538@u.nus.edu">
-        e1398538@u.nus.edu
-      </a>
-    </p>
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <p>
+            Email:{" "}
+            <a className="underline" href="mailto:e1398538@u.nus.edu">
+              e1398538@u.nus.edu
+            </a>
+          </p>
 
-    <p>
-      <a
-        className="underline"
-        href="https://www.linkedin.com/in/haren-raj-417625256/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        LinkedIn
-      </a>
-    </p>
-  </div>
-</footer>
+          <p>
+            <a
+              className="underline"
+              href="https://www.linkedin.com/in/haren-raj-417625256/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </p>
+        </div>
+      </footer>
     </main>
   );
 }
