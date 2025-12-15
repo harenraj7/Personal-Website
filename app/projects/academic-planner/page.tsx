@@ -17,8 +17,9 @@ export default function AcademicPlannerPage() {
         excel sheet that helped me track the modules I needed to take to fulfil my
         graduation requirements and automatically calculate both my pre- and post-
         S/U CAPs.
+      </p>
 
-        {"\n\n"}
+      <p className="mt-4 text-gray-600 whitespace-pre-line">
         But I didn’t do more work than I need to just for fun, I did it to make
         other people’s lives easier too. I’ve uploaded the template below for anyone
         who might find the sheet helpful. Small note, change the colour of each
@@ -26,6 +27,22 @@ export default function AcademicPlannerPage() {
         macro titled “RefreshColourRouting” to automatically tabulate how many module
         credits fulfil each requirement.
       </p>
+      
+<Image
+  src="/images/acad_planner1.png"
+  alt="modules"
+  width={1600}
+  height={900}
+  className="mt-4 w-full rounded-2xl border object-cover"
+/>
+
+      <Image
+  src="/images/acad_planner2.png"
+  alt="gpa calculation"
+  width={1600}
+  height={900}
+  className="mt-4 w-full rounded-2xl border object-cover"
+/>
 
       <div className="mt-8">
         <a
