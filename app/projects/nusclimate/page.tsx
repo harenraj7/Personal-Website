@@ -21,13 +21,13 @@ export default function NUSClimatePage() {
       </p>
 
       <h2 className="mt-10 text-2xl font-semibold">Prediction market screenshot</h2>
-      <div className="mt-4 rounded-2xl border p-6 text-sm text-gray-500">
-        Insert screenshot here
-        <div className="mt-2 text-xs">
-          Put your image in <code className="font-mono">/public/images/</code> and
-          replace this box with an &lt;img&gt; or Next Image.
-        </div>
-      </div>
+      <Image
+        src="/images/prediction_market.jpg"
+        alt="Prediction Market Screenshot"
+        width={1600}
+        height={900}
+        className="mt-4 w-full rounded-2xl border object-cover"
+      />
 
       <h2 className="mt-10 text-2xl font-semibold">Team photo</h2>
 
