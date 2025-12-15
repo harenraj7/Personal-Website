@@ -22,7 +22,7 @@ export default function NUSClimatePage() {
 
       <h2 className="mt-10 text-2xl font-semibold">Prediction market screenshot</h2>
       <Image
-        src="/images/prediction_market.jpg"
+        src="/images/prediction_market.png"
         alt="Prediction Market Screenshot"
         width={1600}
         height={900}
