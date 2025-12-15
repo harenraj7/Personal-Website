@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "heeheehaha",
+    default: "Haren Raj",
     template: "%s — Haren Raj",
   },
   description: "Business Analytics @ NUS — portfolio",
