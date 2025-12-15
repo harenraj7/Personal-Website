@@ -58,7 +58,7 @@ export default function Home() {
             href="/projects/nusclimate"
             className="block rounded-2xl border p-5 hover:bg-gray-50"
           >
-            <div className="font-medium">NUSClimate (LTA Project)</div>
+            <div className="text-xl font-semibold">NUSClimate (LTA Project)</div>
             <p className="mt-2 text-gray-600">
               An online prediction market built with LTA to survey and nudge
               Singaporean youths’ climate knowledge.
@@ -69,7 +69,7 @@ export default function Home() {
             href="/projects/academic-planner"
             className="block rounded-2xl border p-5 hover:bg-gray-50"
           >
-            <div className="font-medium">Sample Academic Planner</div>
+            <div className="text-xl font-semibold">Sample Academic Planner</div>
             <p className="mt-2 text-gray-600">
               Excel template to track graduation requirements and automatically
               calculate pre- and post- S/U CAPs.
@@ -85,7 +85,7 @@ export default function Home() {
           <details className="rounded-2xl border p-5">
             <summary className="cursor-pointer list-none">
   <div className="flex items-center justify-between gap-4">
-    <div className="font-medium">NUS College Football</div>
+    <div className="text-xl font-semibold">NUS College Football</div>
 
     <Image
       src="/images/footballnet.jpeg"
@@ -128,7 +128,7 @@ export default function Home() {
           <details className="rounded-2xl border p-5">
             <summary className="cursor-pointer list-none">
   <div className="flex items-center justify-between gap-4">
-    <div className="font-medium">NUS College Peer Mentorship Programme</div>
+    <div className="text-xl font-semibold">NUS College Peer Mentorship Programme</div>
 
     <Image
       src="/images/nusc_logo.png"
