@@ -23,9 +23,7 @@ export default function Home() {
           <a href="#extracurriculars" className="hover:text-black">
             Extracurriculars
           </a>
-          <a href="#contact" className="hover:text-black">
-            Reach me
-          </a>
+          <a href="#footer" className="hover:text-black">Reach me</a>
         </div>
       </nav>
 
@@ -38,9 +36,9 @@ export default function Home() {
           <a className="rounded-xl bg-black px-4 py-2 text-white" href="#projects">
             View projects
           </a>
-          <a className="rounded-xl border px-4 py-2" href="#contact">
-            Reach me
-          </a>
+          <a className="rounded-xl border px-4 py-2" href="#footer">
+  Reach me
+</a>
         </div>
       </header>
 
@@ -207,29 +205,27 @@ export default function Home() {
 </section>
 
 
-      <section id="contact" className="mt-16">
-        <h2 className="text-2xl font-semibold">Reach me</h2>
+      <footer id="footer" className="mt-20 border-t pt-8 text-sm text-gray-600">
+  <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+    <p>
+      Email:{" "}
+      <a className="underline" href="mailto:e1398538@u.nus.edu">
+        e1398538@u.nus.edu
+      </a>
+    </p>
 
-        <div className="mt-3 text-gray-600">
-          <p>
-            Email:{" "}
-            <a className="underline" href="mailto:e1398538@u.nus.edu">
-              e1398538@u.nus.edu
-            </a>
-          </p>
-
-          <p className="mt-2">
-            <a
-              className="underline"
-              href="https://www.linkedin.com/in/haren-raj-417625256/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-          </p>
-        </div>
-      </section>
+    <p>
+      <a
+        className="underline"
+        href="https://www.linkedin.com/in/haren-raj-417625256/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        LinkedIn
+      </a>
+    </p>
+  </div>
+</footer>
     </main>
   );
 }
