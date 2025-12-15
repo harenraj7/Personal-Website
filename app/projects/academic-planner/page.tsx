@@ -45,7 +45,7 @@ export default function AcademicPlannerPage() {
           alt="Modules"
           width={1600}
           height={900}
-          className="mt-4 w-3/4 rounded-2xl border object-cover"
+          className="w-full sm:w-1/2 rounded-2xl border object-cover"
         />
 
         <Image
@@ -53,7 +53,7 @@ export default function AcademicPlannerPage() {
           alt="GPA calculation"
           width={1600}
           height={900}
-          className="mt-4 w-2/3 rounded-2xl border object-cover"
+          className="w-full sm:w-1/2 rounded-2xl border object-cover"
         />
 
         <div className="mt-8">
