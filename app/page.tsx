@@ -84,16 +84,14 @@ export default function Home() {
   <div className="flex items-center justify-between gap-4">
     <div>
       <div className="font-medium">NUS College Football</div>
-      <div className="mt-2 text-gray-600">Click to expand</div>
-    </div>
 
     <Image
-      src="/images/footballnet.jpeg"
-      alt="Football"
-      width={80}
-      height={80}
-      className="h-16 w-16 shrink-0 rounded-lg object-contain"
-    />
+  src="/images/footballnet.jpeg"
+  alt="Football"
+  width={128}
+  height={128}
+  className="h-32 w-32 shrink-0 rounded-lg object-contain"
+/>
   </div>
 </summary>
 
@@ -127,16 +125,14 @@ export default function Home() {
   <div className="flex items-center justify-between gap-4">
     <div>
       <div className="font-medium">NUS College Peer Mentorship Programme</div>
-      <div className="mt-2 text-gray-600">Click to expand</div>
-    </div>
 
     <Image
-      src="/images/nusc_logo.png"
-      alt="NUS College logo"
-      width={80}
-      height={80}
-      className="h-16 w-16 shrink-0 rounded-lg object-contain"
-    />
+  src="/images/nusc_logo.png"
+  alt="NUS College logo"
+  width={128}
+  height={128}
+  className="h-32 w-32 shrink-0 rounded-lg object-contain"
+/>
   </div>
 </summary>
 
