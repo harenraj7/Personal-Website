@@ -30,15 +30,11 @@ export default function AcademicPlannerPage() {
       <div className="mt-8">
         <a
           className="inline-block rounded-xl bg-black px-4 py-2 text-white"
-          href="/files/sample-academic-planner.xlsx"
+          href="/images/sample-acad-planner.xlsm"
           download
         >
           Download the Excel template
         </a>
-        <p className="mt-2 text-sm text-gray-500">
-          Put your Excel file at{" "}
-          <code className="font-mono">/public/files/sample-academic-planner.xlsx</code>
-        </p>
       </div>
     </main>
   );
