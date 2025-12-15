@@ -13,31 +13,34 @@ export default function NUSClimatePage() {
       </h1>
 
       <p className="mt-4 text-lg text-gray-600 whitespace-pre-line">
-        Overseen by a professor from NUS College, a group of friends and I embarked
-        on a project in partnership with the Land Transport Authority (LTA) to
-        create an online prediction market. NUSClimate used our prediction market
-        to survey how much Singaporean youths know about climate change and to
-        nudge them to learn a bit more and correct their misconceptions.
-      </p>
+  Overseen by a professor from NUS College, a group of friends and I embarked on a
+  project in partnership with the Land Transport Authority (LTA) to create an
+  online prediction market. NUSClimate used our prediction market to survey how
+  much Singaporean youths know about climate change and to nudge them to learn a
+  bit more and correct their misconceptions.
+</p>
 
-      <p className="mt-4 text-lg text-gray-600 whitespace-pre-line"> What the prediction market looks like: </h2>
-      <Image
-        src="/images/prediction_market.png"
-        alt="Prediction Market Screenshot"
-        width={1600}
-        height={900}
-        className="mt-4 w-full rounded-2xl border object-cover"
-      />
+<h2 className="mt-10 text-lg font-semibold text-gray-600">
+  What the prediction market looks like:
+</h2>
+<Image
+  src="/images/prediction_market.png"
+  alt="Prediction Market Screenshot"
+  width={1600}
+  height={900}
+  className="mt-4 w-full rounded-2xl border object-cover"
+/>
 
-      <h2 className="mt-10 text-lg font-semibold"> and (part of) the team behind it! </h2>
-
-      <Image
-        src="/images/IEX1.JPG"
-        alt="NUSClimate team photo"
-        width={1600}
-        height={900}
-        className="mt-4 w-full rounded-2xl border object-cover"
-      />
+<h2 className="mt-10 text-lg font-semibold text-gray-600">
+  and (part of) the team behind it!
+</h2>
+<Image
+  src="/images/IEX1.JPG"
+  alt="NUSClimate team photo"
+  width={1600}
+  height={900}
+  className="mt-4 w-full rounded-2xl border object-cover"
+/>
     </main>
   );
 }
