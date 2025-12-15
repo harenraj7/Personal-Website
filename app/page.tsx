@@ -110,4 +110,3 @@ export default function Home() {
                   <p className="mt-2 text-gray-600">
                     Excel template to automatically and systematically track
 ::contentReference[oaicite:1]{index=1}
-
