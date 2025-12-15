@@ -16,7 +16,7 @@ export default function Home() {
             Extracurriculars
           </a>
           <a href="#contact" className="hover:text-black">
-            Get in touch!
+            Reach me
           </a>
         </div>
       </nav>
@@ -33,7 +33,7 @@ export default function Home() {
             View projects
           </a>
           <a className="rounded-xl border px-4 py-2" href="#contact">
-            Get in touch!
+            Reach me
           </a>
         </div>
       </header>
@@ -81,9 +81,6 @@ export default function Home() {
           <details className="rounded-2xl border p-5">
             <summary className="cursor-pointer list-none">
               <div className="font-medium">NUS College Football</div>
-              <div className="mt-2 text-gray-600">
-                Click to expand
-              </div>
             </summary>
             <div className="mt-4 text-gray-600">
               <p>
@@ -102,9 +99,6 @@ export default function Home() {
           <details className="rounded-2xl border p-5">
             <summary className="cursor-pointer list-none">
               <div className="font-medium">NUS College Peer Mentorship Programme</div>
-              <div className="mt-2 text-gray-600">
-                Click to expand
-              </div>
             </summary>
             <div className="mt-4 text-gray-600">
               <p>
@@ -131,7 +125,7 @@ export default function Home() {
       </section>
 
       <section id="contact" className="mt-16">
-        <h2 className="text-2xl font-semibold">Get in touch!</h2>
+        <h2 className="text-2xl font-semibold">Reach me</h2>
         <div className="mt-3 text-gray-600">
           <p>
             Email:{" "}
@@ -140,15 +134,6 @@ export default function Home() {
             </a>
           </p>
           <p className="mt-2">
-            <a
-              className="underline"
-              href="https://github.com/YOUR_GITHUB"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>{" "}
-            ·{" "}
             <a
               className="underline"
               href="https://www.linkedin.com/in/haren-raj-417625256/"
