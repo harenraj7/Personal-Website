@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AcademicPlannerPage() {
   return (
@@ -27,22 +28,22 @@ export default function AcademicPlannerPage() {
         macro titled “RefreshColourRouting” to automatically tabulate how many module
         credits fulfil each requirement.
       </p>
-      
-<Image
-  src="/images/acad_planner1.png"
-  alt="modules"
-  width={1600}
-  height={900}
-  className="mt-4 w-full rounded-2xl border object-cover"
-/>
 
       <Image
-  src="/images/acad_planner2.png"
-  alt="gpa calculation"
-  width={1600}
-  height={900}
-  className="mt-4 w-full rounded-2xl border object-cover"
-/>
+        src="/images/acad_planner1.png"
+        alt="Modules"
+        width={1600}
+        height={900}
+        className="mt-4 w-full rounded-2xl border object-cover"
+      />
+
+      <Image
+        src="/images/acad_planner2.png"
+        alt="GPA calculation"
+        width={1600}
+        height={900}
+        className="mt-4 w-full rounded-2xl border object-cover"
+      />
 
       <div className="mt-8">
         <a
