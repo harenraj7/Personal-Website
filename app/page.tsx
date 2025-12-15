@@ -87,7 +87,7 @@ export default function Home() {
     </div>
 
     <Image
-      src="/images/nusclimate_1.jpg"
+      src="/images/nusclimate_1_updated.jpg"
       alt="NUSClimate"
       width={200}
       height={200}
