@@ -40,21 +40,26 @@ export default function AcademicPlannerPage() {
           credits fulfil each requirement.
         </p>
 
-        <Image
-          src="/images/acad_planner1.png"
-          alt="Modules"
-          width={1600}
-          height={900}
-          className="w-full sm:w-1/2 rounded-2xl border object-cover"
-        />
+        <div className="mt-4 flex justify-center">
+  <Image
+    src="/images/acad_planner1.png"
+    alt="Modules"
+    width={1600}
+    height={900}
+    className="w-full sm:w-1/2 mx-auto rounded-2xl border object-cover"
+  />
+</div>
 
-        <Image
-          src="/images/acad_planner2.png"
-          alt="GPA calculation"
-          width={1600}
-          height={900}
-          className="w-full sm:w-1/2 rounded-2xl border object-cover"
-        />
+<div className="mt-4 flex justify-center">
+  <Image
+    src="/images/acad_planner2.png"
+    alt="GPA calculation"
+    width={1600}
+    height={900}
+    className="w-full sm:w-1/2 mx-auto rounded-2xl border object-cover"
+  />
+</div>
+
 
         <div className="mt-8">
           <a
