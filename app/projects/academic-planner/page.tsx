@@ -4,8 +4,12 @@ import Image from "next/image";
 export default function AcademicPlannerPage() {
   return (
     <main className="mx-auto max-w-4xl px-6 py-16">
-      <Link className="text-lg font-semibold underline" href="/">
-  ← Back
+      <Link
+  href="/"
+  className="inline-flex items-center gap-2 rounded-xl bg-black px-4 py-2 text-lg font-semibold text-white hover:bg-black/90"
+>
+  <span aria-hidden>←</span>
+  <span>Back</span>
 </Link>
 
       <h1 className="mt-6 text-4xl font-bold tracking-tight">
