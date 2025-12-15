@@ -81,8 +81,22 @@ export default function Home() {
         <div className="mt-5 grid gap-4">
           <details className="rounded-2xl border p-5">
             <summary className="cursor-pointer list-none">
-              <div className="font-medium">NUS College Football</div>
-            </summary>
+  <div className="flex items-center justify-between gap-4">
+    <div>
+      <div className="font-medium">NUS College Football</div>
+      <div className="mt-2 text-gray-600">Click to expand</div>
+    </div>
+
+    <Image
+      src="/images/footballnet.jpeg"
+      alt="Football"
+      width={80}
+      height={80}
+      className="h-16 w-16 shrink-0 rounded-lg object-contain"
+    />
+  </div>
+</summary>
+
             <div className="mt-4 text-gray-600">
               <p>
                 As part of NUS College’s Football team, I was fielded for NUS’ Inter Faculty and Inter College Games in AY 24/25.
@@ -110,8 +124,22 @@ export default function Home() {
 
           <details className="rounded-2xl border p-5">
             <summary className="cursor-pointer list-none">
-              <div className="font-medium">NUS College Peer Mentorship Programme</div>
-            </summary>
+  <div className="flex items-center justify-between gap-4">
+    <div>
+      <div className="font-medium">NUS College Peer Mentorship Programme</div>
+      <div className="mt-2 text-gray-600">Click to expand</div>
+    </div>
+
+    <Image
+      src="/images/nusc_logo.png"
+      alt="NUS College logo"
+      width={80}
+      height={80}
+      className="h-16 w-16 shrink-0 rounded-lg object-contain"
+    />
+  </div>
+</summary>
+
             <div className="mt-4 text-gray-600">
               <p>
                 NUS College runs a programme every year where incoming freshmen are paired with a senior taking a similar programme to help answer any questions regarding university, campus life, their major or NUS College.
