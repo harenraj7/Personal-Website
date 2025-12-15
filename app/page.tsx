@@ -84,19 +84,19 @@ export default function Home() {
         <div className="mt-5 grid gap-4">
           <details className="rounded-2xl border p-5">
             <summary className="cursor-pointer list-none">
-              <div className="flex items-center justify-between gap-4">
-                <div>
-                  <div className="font-medium">NUS College Football</div>
+  <div className="flex items-center justify-between gap-4">
+    <div className="font-medium">NUS College Football</div>
 
-                <Image
-                  src="/images/footballnet.jpeg"
-                  alt="Football"
-                  width={128}
-                  height={128}
-                  className="h-32 w-32 shrink-0 rounded-lg object-contain"
-                />
-              </div>
-            </summary>
+    <Image
+      src="/images/footballnet.jpeg"
+      alt="Football"
+      width={128}
+      height={128}
+      className="h-32 w-32 shrink-0 rounded-lg object-contain"
+    />
+  </div>
+</summary>
+
 
             <div className="mt-4 text-gray-600">
               <p>
@@ -127,20 +127,18 @@ export default function Home() {
 
           <details className="rounded-2xl border p-5">
             <summary className="cursor-pointer list-none">
-              <div className="flex items-center justify-between gap-4">
-                <div>
-                  <div className="font-medium">
-                    NUS College Peer Mentorship Programme
-                  </div>
-                <Image
-                  src="/images/nusc_logo.png"
-                  alt="NUS College logo"
-                  width={128}
-                  height={128}
-                  className="h-32 w-32 shrink-0 rounded-lg object-contain"
-                />
-              </div>
-            </summary>
+  <div className="flex items-center justify-between gap-4">
+    <div className="font-medium">NUS College Peer Mentorship Programme</div>
+
+    <Image
+      src="/images/nusc_logo.png"
+      alt="NUS College logo"
+      width={128}
+      height={128}
+      className="h-32 w-32 shrink-0 rounded-lg object-contain"
+    />
+  </div>
+</summary>
 
             <div className="mt-4 text-gray-600">
               <p>
