@@ -23,15 +23,13 @@ export default function NUSClimatePage() {
 <h2 className="mt-10 text-lg font-semibold text-gray-600">
   What the prediction market looks like:
 </h2>
-<div className="mt-4 flex justify-center">
 <Image
-    src="/images/prediction_market.png"
-    alt="Prediction Market Screenshot"
-    width={1600}
-    height={900}
-    className="w-full max-w-xl rounded-2xl border object-cover"
-  />
-</div>
+  src="/images/prediction_market.png"
+  alt="Prediction Market Screenshot"
+  width={1600}
+  height={900}
+  className="mt-4 w-full rounded-2xl border object-cover"
+/>
 
 <h2 className="mt-10 text-lg font-semibold text-gray-600">
   and (part of) the team behind it!
