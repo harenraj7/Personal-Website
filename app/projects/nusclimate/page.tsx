@@ -18,11 +18,12 @@ export default function NUSClimatePage() {
       </h1>
 
       <p className="mt-4 text-lg text-gray-600 whitespace-pre-line">
-  Overseen by a professor from NUS College, a group of friends and I embarked on a
-  project in partnership with the Land Transport Authority (LTA) to create an
-  online prediction market. NUSClimate used our prediction market to survey how
-  much Singaporean youths know about climate change and to nudge them to learn a
-  bit more and correct their misconceptions.
+        Overseen by a professor from NUS College, a group of friends and I embarked on a
+        project in partnership with the Land Transport Authority (LTA) to study and improve Singaporean youths'
+        knowledge of climate change. Our project seeks to do this through the use of a prediction market, where
+        youths can seek rewards by correctly answering questions about climate change.
+        As of December 2025, NUSClimate wrapped up our pilot study and have conducted our post-study surveys and focus group 
+        discussions with our participants.
 </p>
 
 <h2 className="mt-10 text-lg font-semibold text-gray-600">
