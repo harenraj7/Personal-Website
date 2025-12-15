@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     template: "%s — Haren Raj",
   },
   description: "Business Analytics @ NUS — portfolio",
+  icons: {},
 };
-
 
 export default function RootLayout({
   children,
