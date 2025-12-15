@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function NUSClimatePage() {
   return (
     <main className="mx-auto max-w-4xl px-6 py-16">
-      <Link className="text-lg font-semibold underline" href="/">
+      <Link className="text-lg font-semibold" href="/">
   ← Back
 </Link>
 
