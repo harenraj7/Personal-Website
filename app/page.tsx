@@ -6,7 +6,7 @@ export default function Home() {
         <div className="flex gap-4 text-sm text-gray-600">
           <a href="#projects" className="hover:text-black">Projects</a>
           <a href="#about" className="hover:text-black">About</a>
-          <a href="#contact" className="hover:text-black">Get in touch!</a>
+          <a href="#contact" className="hover:text-black">Getting in touch</a>
         </div>
       </nav>
 
@@ -19,7 +19,7 @@ export default function Home() {
         </p>
         <div className="mt-6 flex gap-3">
           <a className="rounded-xl bg-black px-4 py-2 text-white" href="#projects">View projects</a>
-          <a className="rounded-xl border px-4 py-2" href="#contact">Get in touch!</a>
+          <a className="rounded-xl border px-4 py-2" href="#contact">Getting in touch</a>
         </div>
       </header>
 
@@ -51,7 +51,7 @@ export default function Home() {
       </section>
 
       <section id="contact" className="mt-16">
-        <h2 className="text-2xl font-semibold">Get in touch!</h2>
+        <h2 className="text-2xl font-semibold">Getting in touch</h2>
         <div className="mt-3 text-gray-600">
           <p>
             Email:{" "}
