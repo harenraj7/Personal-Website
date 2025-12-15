@@ -6,18 +6,20 @@ export default function Home() {
         <div className="flex gap-4 text-sm text-gray-600">
           <a href="#projects" className="hover:text-black">Projects</a>
           <a href="#about" className="hover:text-black">About</a>
-          <a href="#contact" className="hover:text-black">Contact</a>
+          <a href="#contact" className="hover:text-black">Get in touch!</a>
         </div>
       </nav>
 
       <header className="mt-14">
-        <h1 className="text-4xl font-bold tracking-tight">Business Analytics @ NUS</h1>
+        <h1 className="text-4xl font-bold tracking-tight">
+          NUS College and Business Analytics Sophomore
+        </h1>
         <p className="mt-3 text-lg text-gray-600">
           I build data-driven stories and analyses using SQL, R, Python, and Tableau.
         </p>
         <div className="mt-6 flex gap-3">
           <a className="rounded-xl bg-black px-4 py-2 text-white" href="#projects">View projects</a>
-          <a className="rounded-xl border px-4 py-2" href="#contact">Contact</a>
+          <a className="rounded-xl border px-4 py-2" href="#contact">Get in touch!</a>
         </div>
       </header>
 
@@ -49,13 +51,27 @@ export default function Home() {
       </section>
 
       <section id="contact" className="mt-16">
-        <h2 className="text-2xl font-semibold">Contact</h2>
+        <h2 className="text-2xl font-semibold">Get in touch!</h2>
         <div className="mt-3 text-gray-600">
-          <p>Email: <a className="underline" href="mailto:you@example.com">you@example.com</a></p>
+          <p>
+            Email:{" "}
+            <a className="underline" href="mailto:e1398538@u.nus.edu">
+              e1398538@u.nus.edu
+            </a>
+          </p>
           <p className="mt-2">
-            <a className="underline" href="https://github.com/YOUR_GITHUB" target="_blank" rel="noreferrer">GitHub</a>{" "}
+            <a className="underline" href="https://github.com/YOUR_GITHUB" target="_blank" rel="noreferrer">
+              GitHub
+            </a>{" "}
             ·{" "}
-            <a className="underline" href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a
+              className="underline"
+              href="https://www.linkedin.com/in/haren-raj-417625256/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
           </p>
         </div>
       </section>
