@@ -59,7 +59,7 @@ export default function AcademicPlannerPage() {
           href="/images/sample_acad_planner.xlsm"
           download
         >
-          Download the Excel template
+          Download here
         </a>
       </div>
     </main>
