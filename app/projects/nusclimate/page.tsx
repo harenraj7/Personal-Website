@@ -9,7 +9,7 @@ export default function NUSClimatePage() {
       </Link>
 
       <h1 className="mt-6 text-4xl font-bold tracking-tight">
-        NUSClimate [LTA Project]
+        NUSClimate (LTA Project)
       </h1>
 
       <p className="mt-4 text-gray-600 whitespace-pre-line">
@@ -20,7 +20,7 @@ export default function NUSClimatePage() {
         nudge them to learn a bit more and correct their misconceptions.
       </p>
 
-      <h2 className="mt-10 text-2xl font-semibold">Prediction market screenshot</h2>
+      <h2 className="mt-10 text-2xl font-semibold"> What the prediction market looks like</h2>
       <Image
         src="/images/prediction_market.png"
         alt="Prediction Market Screenshot"
@@ -29,7 +29,7 @@ export default function NUSClimatePage() {
         className="mt-4 w-full rounded-2xl border object-cover"
       />
 
-      <h2 className="mt-10 text-2xl font-semibold">Team photo</h2>
+      <h2 className="mt-10 text-2xl font-semibold"> and (part of) the team behind it! </h2>
 
       <Image
         src="/images/IEX1.JPG"
