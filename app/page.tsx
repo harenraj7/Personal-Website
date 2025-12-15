@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -88,11 +89,22 @@ export default function Home() {
                 We even managed to clinch silver medals for the Inter College Games. I’m looking forward to competing more with this team.
               </p>
 
-              {/* Replace these placeholders with your photos later */}
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                <div className="rounded-xl border p-4 text-sm text-gray-500">Insert photo 1</div>
-                <div className="rounded-xl border p-4 text-sm text-gray-500">Insert photo 2</div>
-              </div>
+  <Image
+    src="/images/Football_1.JPEG"
+    alt="NUS College Football photo 1"
+    width={1600}
+    height={1200}
+    className="w-full rounded-xl border object-cover"
+  />
+  <Image
+    src="/images/Football_2.JPG"
+    alt="NUS College Football photo 2"
+    width={1600}
+    height={1200}
+    className="w-full rounded-xl border object-cover"
+  />
+</div>
             </div>
           </details>
 
