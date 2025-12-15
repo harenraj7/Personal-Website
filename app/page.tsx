@@ -56,7 +56,7 @@ export default function Home() {
     className="w-full rounded-2xl border object-cover"
   />
   <Image
-    src="/images/self-photo2.png"
+    src="/images/self-photo2-updated.png"
     alt="self photo 2"
     width={1600}
     height={1200}
