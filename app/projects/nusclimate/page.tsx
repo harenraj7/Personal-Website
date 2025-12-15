@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function NUSClimatePage() {
   return (
     <main className="mx-auto max-w-4xl px-6 py-16">
-      <Link className="text-sm underline" href="/">
-        ← Back
-      </Link>
+      <Link className="text-lg font-semibold underline" href="/">
+  ← Back
+</Link>
 
       <h1 className="mt-6 text-4xl font-bold tracking-tight">
         NUSClimate (LTA Project)
