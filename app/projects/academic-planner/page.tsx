@@ -40,7 +40,7 @@ export default function AcademicPlannerPage() {
             alt="Modules"
             width={1600}
             height={900}
-            className="w-full sm:w-1/2 rounded-2xl border object-cover"
+            className="w-full sm:w-3/4 rounded-2xl border object-cover"
           />
         </div>
 
@@ -50,7 +50,7 @@ export default function AcademicPlannerPage() {
             alt="GPA calculation"
             width={1600}
             height={900}
-            className="w-full sm:w-1/2 rounded-2xl border object-cover"
+            className="w-full sm:w-2/3 rounded-2xl border object-cover"
           />
         </div>
 
