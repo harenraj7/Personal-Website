@@ -139,14 +139,12 @@ export default function Home() {
       <span className="text-lg transition-transform duration-200 group-open:rotate-90">
         ▶
       </span>
-      <div className="text-xl font-semibold">
-        NUS College Peer Mentorship Programme
-      </div>
+      <div className="text-xl font-semibold">NUS College Football</div>
     </div>
 
     <Image
-      src="/images/nusc_logo.png"
-      alt="NUS College logo"
+      src="/images/footballnet.jpeg"
+      alt="Football"
       width={128}
       height={128}
       className="h-20 w-20 shrink-0 rounded-lg object-contain"
