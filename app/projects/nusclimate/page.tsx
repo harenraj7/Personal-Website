@@ -12,7 +12,7 @@ export default function NUSClimatePage() {
         NUSClimate (LTA Project)
       </h1>
 
-      <p className="mt-4 text-gray-600 whitespace-pre-line">
+      <p className="mt-4 text-lg text-gray-600 whitespace-pre-line">
         Overseen by a professor from NUS College, a group of friends and I embarked
         on a project in partnership with the Land Transport Authority (LTA) to
         create an online prediction market. NUSClimate used our prediction market
@@ -20,7 +20,7 @@ export default function NUSClimatePage() {
         nudge them to learn a bit more and correct their misconceptions.
       </p>
 
-      <h2 className="mt-10 text-2xl font-semibold"> What the prediction market looks like</h2>
+      <p className="mt-4 text-lg text-gray-600 whitespace-pre-line"> What the prediction market looks like: </h2>
       <Image
         src="/images/prediction_market.png"
         alt="Prediction Market Screenshot"
@@ -29,7 +29,7 @@ export default function NUSClimatePage() {
         className="mt-4 w-full rounded-2xl border object-cover"
       />
 
-      <h2 className="mt-10 text-2xl font-semibold"> and (part of) the team behind it! </h2>
+      <h2 className="mt-10 text-lg font-semibold"> and (part of) the team behind it! </h2>
 
       <Image
         src="/images/IEX1.JPG"
