@@ -11,18 +11,27 @@ export default function Home() {
   return (
     <main className="mx-auto max-w-4xl px-6 py-16">
       <nav className="flex items-center justify-end">
-        <div className="flex gap-4 text-sm text-gray-600">
-          <a href="#about" className="hover:text-black">
-            About me
-          </a>
-          <a href="#projects" className="hover:text-black">
-            Projects
-          </a>
-          <a href="#extracurriculars" className="hover:text-black">
-            Extracurriculars
-          </a>
-        </div>
-      </nav>
+  <div className="flex gap-3 text-sm">
+    <a
+      href="#about"
+      className="inline-flex items-center rounded-xl bg-black px-4 py-2 font-semibold text-white hover:bg-black/90"
+    >
+      About me
+    </a>
+    <a
+      href="#projects"
+      className="inline-flex items-center rounded-xl bg-black px-4 py-2 font-semibold text-white hover:bg-black/90"
+    >
+      Projects
+    </a>
+    <a
+      href="#extracurriculars"
+      className="inline-flex items-center rounded-xl bg-black px-4 py-2 font-semibold text-white hover:bg-black/90"
+    >
+      Extracurriculars
+    </a>
+  </div>
+</nav>
 
       <header className="mt-14">
         <h1 className="text-5xl font-bold tracking-tight">Haren Raj</h1>
@@ -33,14 +42,33 @@ export default function Home() {
 
       <section id="about" className="mt-16">
         <h2 className="text-2xl font-semibold">About me</h2>
-        <p className="mt-3 text-gray-600 whitespace-pre-line">
-          Hi! I’m Haren and I love listening to different genres of music and
-          learning about different cultures, but that’s not what you’re here to
-          read about.
-          {"\n\n"}
-          Welcome to my website. It’ll give you some insight into what I’ve been
-          working on in my free time as well as my skills and career goals.
-        </p>
+        <p className="mt-3 text-gray-600">
+  Hi! I’m Haren and I love listening to different genres of music and learning
+  about different cultures, but that’s not what you’re here to read about.
+</p>
+
+<div className="mt-4 grid gap-3 sm:grid-cols-2">
+  <Image
+    src="/images/self-photo.JPG"
+    alt="self photo 1"
+    width={1600}
+    height={1200}
+    className="w-full rounded-2xl border object-cover"
+  />
+  <Image
+    src="/images/self-photo.png"
+    alt="self photo 2"
+    width={1600}
+    height={1200}
+    className="w-full rounded-2xl border object-cover"
+  />
+</div>
+
+<p className="mt-6 text-gray-600">
+  Welcome to my website. It’ll give you some insight into what I’ve been working
+  on in my free time as well as my skills and career goals.
+</p>
+
       </section>
 
       <section id="projects" className="mt-16">
