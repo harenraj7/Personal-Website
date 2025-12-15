@@ -81,18 +81,25 @@ export default function Home() {
       <section id="extracurriculars" className="mt-16">
         <h2 className="text-2xl font-semibold">Extracurriculars</h2>
 
-        <div className="mt-5 grid gap-4">
-          <details className="rounded-2xl border p-5">
-            <summary className="cursor-pointer list-none">
+        {/* Side-by-side on md+, smaller boxes */}
+        <div className="mt-5 grid gap-4 md:grid-cols-2">
+          <details className="rounded-2xl border p-4">
+            {/* Arrow to the left of the title */}
+            <summary className="group list-none cursor-pointer">
   <div className="flex items-center justify-between gap-4">
-    <div className="text-xl font-semibold">NUS College Football</div>
+    <div className="flex items-center gap-3">
+      <span className="text-lg transition-transform duration-200 group-open:rotate-90">
+        ▶
+      </span>
+      <div className="text-xl font-semibold">NUS College Football</div>
+    </div>
 
     <Image
       src="/images/footballnet.jpeg"
       alt="Football"
       width={128}
       height={128}
-      className="h-32 w-32 shrink-0 rounded-lg object-contain"
+      className="h-20 w-20 shrink-0 rounded-lg object-contain"
     />
   </div>
 </summary>
@@ -125,17 +132,24 @@ export default function Home() {
             </div>
           </details>
 
-          <details className="rounded-2xl border p-5">
-            <summary className="cursor-pointer list-none">
+          <details className="rounded-2xl border p-4">
+            <summary className="group list-none cursor-pointer">
   <div className="flex items-center justify-between gap-4">
-    <div className="text-xl font-semibold">NUS College Peer Mentorship Programme</div>
+    <div className="flex items-center gap-3">
+      <span className="text-lg transition-transform duration-200 group-open:rotate-90">
+        ▶
+      </span>
+      <div className="text-xl font-semibold">
+        NUS College Peer Mentorship Programme
+      </div>
+    </div>
 
     <Image
       src="/images/nusc_logo.png"
       alt="NUS College logo"
       width={128}
       height={128}
-      className="h-32 w-32 shrink-0 rounded-lg object-contain"
+      className="h-20 w-20 shrink-0 rounded-lg object-contain"
     />
   </div>
 </summary>
