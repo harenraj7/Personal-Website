@@ -31,7 +31,7 @@ export default function Home() {
               href="#school-work"
               className="inline-flex items-center rounded-xl bg-black px-4 py-2 font-semibold text-white hover:bg-black/90"
             >
-              School-related Work
+               Noteworthy Coursework
             </a>
             <a
               href="#extracurriculars"
@@ -140,70 +140,59 @@ export default function Home() {
         </section>
 
         <section id="school-work" className="mt-16">
-          <h2 className="text-2xl font-semibold">School-related Work</h2>
+          <h2 className="text-2xl font-semibold">Noteworthy Coursework</h2>
           <p className="mt-3 text-gray-600">
-            A quick snapshot of modules, assignments, and school projects I’ve put time
-            into. Scroll sideways to see more.
+            A glimpse into the work I've done and skills I've developed through 
+            NUS' Business Analytics coursework. Scroll to see more.
           </p>
 
           {/* Horizontal carousel */}
+          <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
+                  <div className="flex items-center justify-between gap-6">
+                    <div>
+                      <div className="text-xl font-semibold">CS2040 </div>
+                      <p className="mt-2 text-gray-600">
+                        Optimised common computer science algorithms for specific problems
+                        and questions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+          
           <div className="mt-5">
             <div className="-mx-6 px-6 overflow-x-auto pb-2">
               <div className="flex w-max snap-x snap-mandatory gap-4">
                 <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
                   <div className="flex items-center justify-between gap-6">
                     <div>
-                      <div className="text-xl font-semibold">BT2102 Data Storytelling</div>
+                      <div className="text-xl font-semibold">BT2102 </div>
                       <p className="mt-2 text-gray-600">
-                        End-to-end analytics: framing, modelling, and turning results into a clear narrative.
+                        Utilised Tableau and SQL for a group project and presentation on a given e-commerce dataset.
                       </p>
                     </div>
-
-                    <Image
-                      src="/images/excel_logo.png"
-                      alt="Spreadsheet"
-                      width={200}
-                      height={200}
-                      className="h-16 w-16 shrink-0 rounded-xl object-contain"
-                    />
                   </div>
                 </div>
 
                 <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
                   <div className="flex items-center justify-between gap-6">
                     <div>
-                      <div className="text-xl font-semibold">CS2030S Functional Java</div>
+                      <div className="text-xl font-semibold">CS2030 </div>
                       <p className="mt-2 text-gray-600">
-                        Building robust abstractions with immutability, streams, and clean APIs.
+                        Built a Java event simulator on the bases of functional and 
+                        object-oriented programming.
                       </p>
                     </div>
-
-                    <Image
-                      src="/images/nusc_logo.png"
-                      alt="NUS College"
-                      width={200}
-                      height={200}
-                      className="h-16 w-16 shrink-0 rounded-xl object-contain"
-                    />
                   </div>
                 </div>
 
                 <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
                   <div className="flex items-center justify-between gap-6">
                     <div>
-                      <div className="text-xl font-semibold">Coursework + Group Projects</div>
+                      <div className="text-xl font-semibold">CS1010A </div>
                       <p className="mt-2 text-gray-600">
-                        Research, presentations, and deliverables with tight deadlines and real collaboration.
+                        Learnt simple programming concepts through the use of Python.
                       </p>
                     </div>
-
-                    <Image
-                      src="/images/nusclimate_1_updated.jpg"
-                      alt="Project"
-                      width={200}
-                      height={200}
-                      className="h-16 w-16 shrink-0 rounded-xl object-contain"
-                    />
                   </div>
                 </div>
               </div>
@@ -337,7 +326,7 @@ export default function Home() {
               )}
             </div>
 
-            {/* NEW: BACT (example) */}
+            {/* NEW: SOC rep (example) */}
             <div className="h-fit rounded-2xl border bg-white/80 p-4 shadow-sm">
               <button
                 type="button"
@@ -354,25 +343,18 @@ export default function Home() {
                       ▶
                     </span>
                     <div className="text-xl font-semibold">
-                      NUS Business Analytics Consulting Team
+                      School of Computing Student Ambassador
                     </div>
                   </div>
-
-                  <Image
-                    src="/images/excel_logo.png"
-                    alt="Analytics"
-                    width={128}
-                    height={128}
-                    className="h-20 w-20 shrink-0 rounded-lg object-contain"
-                  />
                 </div>
               </button>
 
               {isBactOpen && (
                 <div className="mt-4 text-gray-600">
                   <p>
-                    Add details here (role, projects, what you did, impact, tools used).
-                    Keep this section short, then link out or add visuals if needed.
+                    Answered questions to prospective students and concerned parents about
+                    NUS Business Analytics and School of Computing, giving them and idea of career
+                    prospects and what to expect as a student
                   </p>
                 </div>
               )}
@@ -395,17 +377,9 @@ export default function Home() {
                       ▶
                     </span>
                     <div className="text-xl font-semibold">
-                      Public Speaking / Events / Leadership
+                      WIP
                     </div>
                   </div>
-
-                  <Image
-                    src="/images/nusclimate_1_updated.jpg"
-                    alt="Speaking"
-                    width={128}
-                    height={128}
-                    className="h-20 w-20 shrink-0 rounded-lg object-contain"
-                  />
                 </div>
               </button>
 
