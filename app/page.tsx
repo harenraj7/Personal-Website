@@ -147,7 +147,11 @@ export default function Home() {
           </p>
 
           {/* Horizontal carousel */}
-          <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
+          <div className="mt-5">
+            <div className="-mx-6 px-6 overflow-x-auto pb-2">
+              <div className="flex w-max snap-x snap-mandatory gap-4">
+
+                <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
                   <div className="flex items-center justify-between gap-6">
                     <div>
                       <div className="text-xl font-semibold">CS2040 </div>
@@ -158,10 +162,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-          
-          <div className="mt-5">
-            <div className="-mx-6 px-6 overflow-x-auto pb-2">
-              <div className="flex w-max snap-x snap-mandatory gap-4">
+                
                 <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
                   <div className="flex items-center justify-between gap-6">
                     <div>
@@ -377,7 +378,7 @@ export default function Home() {
                       ▶
                     </span>
                     <div className="text-xl font-semibold">
-                      WIP
+                      Case Competitions
                     </div>
                   </div>
                 </div>
