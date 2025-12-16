@@ -151,11 +151,11 @@ export default function Home() {
             <div className="-mx-6 px-6 overflow-x-auto pb-2">
               <div className="flex w-max snap-x snap-mandatory gap-4">
 
-                <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
-                  <div className="flex items-center justify-between gap-6">
-                    <div>
-                      <div className="text-xl font-semibold">CS2040 </div>
-                      <p className="mt-2 text-gray-600">
+                <div className="snap-start w-[320px] sm:w-[420px] flex-none rounded-2xl border bg-white/80 p-5 shadow-sm">
+  <div className="flex items-center justify-between gap-6">
+    <div className="min-w-0">
+      <div className="text-xl font-semibold">CS2040</div>
+      <p className="mt-2 text-gray-600 whitespace-normal break-words">
                         Optimised common computer science algorithms for specific problems
                         and questions.
                       </p>
@@ -163,34 +163,35 @@ export default function Home() {
                   </div>
                 </div>
                 
-                <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
-                  <div className="flex items-center justify-between gap-6">
-                    <div>
-                      <div className="text-xl font-semibold">BT2102 </div>
-                      <p className="mt-2 text-gray-600">
+                <div className="snap-start w-[320px] sm:w-[420px] flex-none rounded-2xl border bg-white/80 p-5 shadow-sm">
+  <div className="flex items-center justify-between gap-6">
+    <div className="min-w-0">
+      <div className="text-xl font-semibold">BT2102</div>
+      <p className="mt-2 text-gray-600 whitespace-normal break-words">
                         Utilised Tableau and SQL for a group project and presentation on a given e-commerce dataset.
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
-                  <div className="flex items-center justify-between gap-6">
-                    <div>
-                      <div className="text-xl font-semibold">CS2030 </div>
-                      <p className="mt-2 text-gray-600">
-                        Built a Java event simulator on the bases of functional and 
-                        object-oriented programming.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <div className="snap-start w-[320px] sm:w-[420px] flex-none rounded-2xl border bg-white/80 p-5 shadow-sm">
+  <div className="flex items-center justify-between gap-6">
+    <div className="min-w-0">
+      <div className="text-xl font-semibold">CS2030</div>
+      <p className="mt-2 text-gray-600 whitespace-normal break-words">
+        Built a Java event simulator on the bases of functional and
+        object-oriented programming.
+      </p>
+    </div>
+  </div>
+</div>
 
-                <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
-                  <div className="flex items-center justify-between gap-6">
-                    <div>
-                      <div className="text-xl font-semibold">CS1010A </div>
-                      <p className="mt-2 text-gray-600">
+
+                <div className="snap-start w-[320px] sm:w-[420px] flex-none rounded-2xl border bg-white/80 p-5 shadow-sm">
+  <div className="flex items-center justify-between gap-6">
+    <div className="min-w-0">
+      <div className="text-xl font-semibold">CS1010A</div>
+      <p className="mt-2 text-gray-600 whitespace-normal break-words">
                         Learnt simple programming concepts through the use of Python.
                       </p>
                     </div>
