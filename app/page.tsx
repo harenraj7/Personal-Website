@@ -31,6 +31,12 @@ export default function Home() {
             >
               Extracurriculars
             </a>
+            <a
+              href="#footer"
+              className="inline-flex items-center rounded-xl bg-black px-4 py-2 font-semibold text-white hover:bg-black/90"
+            >
+              Reach me
+            </a>
           </div>
         </nav>
 
@@ -162,7 +168,7 @@ export default function Home() {
                 <div className="mt-4 text-gray-600">
                   <p>
                     As part of NUS College’s Football team, I was fielded for NUS’
-                    Inter Faculty and Inter College Games in AY 24/25. We even
+                    Inter Faculty and Inter College Games in AY 24/25. Our team even
                     managed to clinch silver medals for the Inter College Games.
                     I’m looking forward to competing more with this team.
                   </p>
@@ -224,11 +230,16 @@ export default function Home() {
                     NUS College runs a programme every year where incoming freshmen
                     are paired with a senior taking a similar programme to help
                     answer any questions regarding university, campus life, their
-                    major or NUS College. As someone who benefitted from this
+                    major or NUS College. 
+                  </p>
+                  <p>
+                    As someone who benefitted from this
                     programme greatly as a freshman, I decided to join it in my
                     sophomore year as the Faculty Coordinator for the School of
                     Computing. I matched mentees to mentors, coordinated with
-                    professors, and trained mentors on how to advise their mentees.
+                    professors, and trained mentors on how to advise their mentees. 
+                    I also had the privilege of taking my own mentees under my wing and 
+                    being their mentor.
                   </p>
 
                   <p className="mt-4">
