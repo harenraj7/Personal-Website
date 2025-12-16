@@ -51,7 +51,7 @@ export default function Home() {
         <header className="mt-14">
           <h1 className="text-5xl font-bold tracking-tight">Haren Raj</h1>
           <p className="mt-3 text-2xl font-semibold text-gray-600">
-            NUS College and Business Analytics Sophomore
+            Business Analytics and NUS College Sophomore
           </p>
         </header>
 
@@ -355,8 +355,8 @@ export default function Home() {
                 <div className="mt-4 text-gray-600">
                   <p>
                     Answered questions to prospective students and concerned parents about
-                    NUS Business Analytics and School of Computing, giving them and idea of career
-                    prospects and what to expect as a student
+                    Business Analytics and School of Computing at NUS' Open House, giving them and idea of career
+                    prospects and what to expect as a student.
                   </p>
                 </div>
               )}
