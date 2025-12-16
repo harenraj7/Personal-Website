@@ -7,6 +7,8 @@ import Image from "next/image";
 export default function Home() {
   const [isFootballOpen, setIsFootballOpen] = useState(false);
   const [isMentorshipOpen, setIsMentorshipOpen] = useState(false);
+  const [isBactOpen, setIsBactOpen] = useState(false);
+  const [isDebateOpen, setIsDebateOpen] = useState(false);
 
   return (
     <main className="min-h-screen bg-sky-50">
@@ -24,6 +26,12 @@ export default function Home() {
               className="inline-flex items-center rounded-xl bg-black px-4 py-2 font-semibold text-white hover:bg-black/90"
             >
               Projects
+            </a>
+            <a
+              href="#school-work"
+              className="inline-flex items-center rounded-xl bg-black px-4 py-2 font-semibold text-white hover:bg-black/90"
+            >
+              School-related Work
             </a>
             <a
               href="#extracurriculars"
@@ -131,10 +139,82 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="school-work" className="mt-16">
+          <h2 className="text-2xl font-semibold">School-related Work</h2>
+          <p className="mt-3 text-gray-600">
+            A quick snapshot of modules, assignments, and school projects I’ve put time
+            into. Scroll sideways to see more.
+          </p>
+
+          {/* Horizontal carousel */}
+          <div className="mt-5">
+            <div className="-mx-6 px-6 overflow-x-auto pb-2">
+              <div className="flex w-max snap-x snap-mandatory gap-4">
+                <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
+                  <div className="flex items-center justify-between gap-6">
+                    <div>
+                      <div className="text-xl font-semibold">BT2102 Data Storytelling</div>
+                      <p className="mt-2 text-gray-600">
+                        End-to-end analytics: framing, modelling, and turning results into a clear narrative.
+                      </p>
+                    </div>
+
+                    <Image
+                      src="/images/excel_logo.png"
+                      alt="Spreadsheet"
+                      width={200}
+                      height={200}
+                      className="h-16 w-16 shrink-0 rounded-xl object-contain"
+                    />
+                  </div>
+                </div>
+
+                <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
+                  <div className="flex items-center justify-between gap-6">
+                    <div>
+                      <div className="text-xl font-semibold">CS2030S Functional Java</div>
+                      <p className="mt-2 text-gray-600">
+                        Building robust abstractions with immutability, streams, and clean APIs.
+                      </p>
+                    </div>
+
+                    <Image
+                      src="/images/nusc_logo.png"
+                      alt="NUS College"
+                      width={200}
+                      height={200}
+                      className="h-16 w-16 shrink-0 rounded-xl object-contain"
+                    />
+                  </div>
+                </div>
+
+                <div className="snap-start min-w-[320px] sm:min-w-[420px] rounded-2xl border bg-white/80 p-5 shadow-sm">
+                  <div className="flex items-center justify-between gap-6">
+                    <div>
+                      <div className="text-xl font-semibold">Coursework + Group Projects</div>
+                      <p className="mt-2 text-gray-600">
+                        Research, presentations, and deliverables with tight deadlines and real collaboration.
+                      </p>
+                    </div>
+
+                    <Image
+                      src="/images/nusclimate_1_updated.jpg"
+                      alt="Project"
+                      width={200}
+                      height={200}
+                      className="h-16 w-16 shrink-0 rounded-xl object-contain"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="extracurriculars" className="mt-16">
           <h2 className="text-2xl font-semibold">Extracurriculars</h2>
 
-          <div className="mt-5 grid gap-4 md:grid-cols-2 md:items-start">
+          <div className="mt-5 grid auto-rows-min items-start gap-4 md:grid-cols-2">
             {/* Football card */}
             <div className="h-fit rounded-2xl border bg-white/80 p-4 shadow-sm">
               <button
@@ -230,16 +310,15 @@ export default function Home() {
                     NUS College runs a programme every year where incoming freshmen
                     are paired with a senior taking a similar programme to help
                     answer any questions regarding university, campus life, their
-                    major or NUS College. 
+                    major or NUS College.
                   </p>
                   <p>
-                    As someone who benefitted from this
-                    programme greatly as a freshman, I decided to join it in my
-                    sophomore year as the Faculty Coordinator for the School of
-                    Computing. I matched mentees to mentors, coordinated with
-                    professors, and trained mentors on how to advise their mentees. 
-                    I also had the privilege of taking my own mentees under my wing and 
-                    being their mentor.
+                    As someone who benefitted from this programme greatly as a freshman,
+                    I decided to join it in my sophomore year as the Faculty Coordinator
+                    for the School of Computing. I matched mentees to mentors,
+                    coordinated with professors, and trained mentors on how to advise
+                    their mentees. I also had the privilege of taking my own mentees
+                    under my wing and being their mentor.
                   </p>
 
                   <p className="mt-4">
@@ -257,33 +336,114 @@ export default function Home() {
                 </div>
               )}
             </div>
+
+            {/* NEW: BACT (example) */}
+            <div className="h-fit rounded-2xl border bg-white/80 p-4 shadow-sm">
+              <button
+                type="button"
+                onClick={() => setIsBactOpen((v) => !v)}
+                className="w-full text-left"
+              >
+                <div className="flex items-center justify-between gap-4">
+                  <div className="flex items-center gap-3">
+                    <span
+                      className={`text-lg transition-transform duration-200 ${
+                        isBactOpen ? "rotate-90" : ""
+                      }`}
+                    >
+                      ▶
+                    </span>
+                    <div className="text-xl font-semibold">
+                      NUS Business Analytics Consulting Team
+                    </div>
+                  </div>
+
+                  <Image
+                    src="/images/excel_logo.png"
+                    alt="Analytics"
+                    width={128}
+                    height={128}
+                    className="h-20 w-20 shrink-0 rounded-lg object-contain"
+                  />
+                </div>
+              </button>
+
+              {isBactOpen && (
+                <div className="mt-4 text-gray-600">
+                  <p>
+                    Add details here (role, projects, what you did, impact, tools used).
+                    Keep this section short, then link out or add visuals if needed.
+                  </p>
+                </div>
+              )}
+            </div>
+
+            {/* NEW: Debate/Public speaking (example) */}
+            <div className="h-fit rounded-2xl border bg-white/80 p-4 shadow-sm">
+              <button
+                type="button"
+                onClick={() => setIsDebateOpen((v) => !v)}
+                className="w-full text-left"
+              >
+                <div className="flex items-center justify-between gap-4">
+                  <div className="flex items-center gap-3">
+                    <span
+                      className={`text-lg transition-transform duration-200 ${
+                        isDebateOpen ? "rotate-90" : ""
+                      }`}
+                    >
+                      ▶
+                    </span>
+                    <div className="text-xl font-semibold">
+                      Public Speaking / Events / Leadership
+                    </div>
+                  </div>
+
+                  <Image
+                    src="/images/nusclimate_1_updated.jpg"
+                    alt="Speaking"
+                    width={128}
+                    height={128}
+                    className="h-20 w-20 shrink-0 rounded-lg object-contain"
+                  />
+                </div>
+              </button>
+
+              {isDebateOpen && (
+                <div className="mt-4 text-gray-600">
+                  <p>
+                    Add details here (positions held, events emceed, competitions, trainings,
+                    or any leadership milestones).
+                  </p>
+                </div>
+              )}
+            </div>
           </div>
         </section>
 
         <footer id="footer" className="mt-20 border-t pt-8 text-sm text-gray-600">
-  <div className="flex flex-col gap-2">
-    <p className="font-medium text-gray-900">Reach me</p>
+          <div className="flex flex-col gap-2">
+            <p className="font-medium text-gray-900">Reach me</p>
 
-    <p>
-      Email:{" "}
-      <a className="underline" href="mailto:e1398538@u.nus.edu">
-        e1398538@u.nus.edu
-      </a>
-    </p>
+            <p>
+              Email:{" "}
+              <a className="underline" href="mailto:e1398538@u.nus.edu">
+                e1398538@u.nus.edu
+              </a>
+            </p>
 
-    <p>
-      <a
-        className="underline"
-        href="https://www.linkedin.com/in/haren-raj-417625256/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        LinkedIn
-      </a>
-    </p>
-  </div>
-</footer>
-
+            <p>
+              <a
+                className="underline"
+                href="https://www.linkedin.com/in/haren-raj-417625256/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </p>
+          </div>
+        </footer>
       </div>
     </main>
   );
