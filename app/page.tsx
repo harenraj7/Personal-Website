@@ -88,7 +88,11 @@ export default function Home() {
         </section>
 
         <section id="projects" className="mt-16">
-          <h2 className="text-2xl font-semibold">Projects (click to see more)</h2>
+          <h2 className="text-2xl font-semibold">Projects</h2>
+
+          <p className="mt-3 text-gray-600">
+            Personal and group projects. Click to see more.
+          </p>
 
           <div className="mt-5 grid gap-4 sm:grid-cols-2">
             <Link
