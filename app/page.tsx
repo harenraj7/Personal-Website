@@ -261,26 +261,29 @@ export default function Home() {
         </section>
 
         <footer id="footer" className="mt-20 border-t pt-8 text-sm text-gray-600">
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-left sm:justify-between">
-            <p>
-              Email:{" "}
-              <a className="underline" href="mailto:e1398538@u.nus.edu">
-                e1398538@u.nus.edu
-              </a>
-            </p>
+  <div className="flex flex-col gap-2">
+    <p className="font-medium text-gray-900">Reach me</p>
 
-            <p>
-              <a
-                className="underline"
-                href="https://www.linkedin.com/in/haren-raj-417625256/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-            </p>
-          </div>
-        </footer>
+    <p>
+      Email:{" "}
+      <a className="underline" href="mailto:e1398538@u.nus.edu">
+        e1398538@u.nus.edu
+      </a>
+    </p>
+
+    <p>
+      <a
+        className="underline"
+        href="https://www.linkedin.com/in/haren-raj-417625256/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        LinkedIn
+      </a>
+    </p>
+  </div>
+</footer>
+
       </div>
     </main>
   );
