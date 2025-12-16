@@ -261,7 +261,7 @@ export default function Home() {
         </section>
 
         <footer id="footer" className="mt-20 border-t pt-8 text-sm text-gray-600">
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-left sm:justify-between">
             <p>
               Email:{" "}
               <a className="underline" href="mailto:e1398538@u.nus.edu">
