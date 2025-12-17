@@ -391,12 +391,13 @@ export default function Home() {
 
               {isDebateOpen && (
   <div className="mt-4 text-gray-600">
+    Click{" "}
     <Link href="/case-competitions" className="underline font-medium">
-      Click here to see more
-    </Link>
+      here
+    </Link>{" "}
+    to see more
   </div>
 )}
-
             </div>
           </div>
         </section>
