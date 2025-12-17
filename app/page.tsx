@@ -390,13 +390,13 @@ export default function Home() {
               </button>
 
               {isDebateOpen && (
-                <div className="mt-4 text-gray-600">
-                  <p>
-                    Add details here (positions held, events emceed, competitions, trainings,
-                    or any leadership milestones).
-                  </p>
-                </div>
-              )}
+  <div className="mt-4 text-gray-600">
+    <Link href="/case-competitions" className="underline font-medium">
+      Click here to see more
+    </Link>
+  </div>
+)}
+
             </div>
           </div>
         </section>
