@@ -31,7 +31,7 @@ export default function Home() {
               href="#school-work"
               className="inline-flex items-center rounded-xl bg-black px-4 py-2 font-semibold text-white hover:bg-black/90"
             >
-               Noteworthy Coursework
+               Work and skills
             </a>
             <a
               href="#extracurriculars"
