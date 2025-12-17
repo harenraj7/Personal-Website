@@ -383,7 +383,7 @@ export default function Home() {
                       ▶
                     </span>
                     <div className="text-xl font-semibold">
-                      Case Competitions
+                      Competitions
                     </div>
                   </div>
                 </div>
