@@ -218,7 +218,7 @@ export default function Home() {
     </div>
 
     <p className="mt-2 text-gray-600 whitespace-normal break-words">
-      Conducted open-source intelligence for counter-terrorism military intelligence.
+      Spent 2 years conducting open-source research and development for counter-terrorism military intelligence.
     </p>
   </div>
 </div>
