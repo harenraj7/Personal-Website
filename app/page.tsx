@@ -200,29 +200,29 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                
-<div className="flex items-start gap-4">
-  <div className="flex-1 min-w-0">
-    <div className="text-xl font-semibold leading-snug">
-      The Digital and Intelligence Service
-    </div>
-  </div>
+<div className="snap-start w-[320px] sm:w-[420px] flex-none rounded-2xl border bg-white/80 p-5 shadow-sm">
+  <div className="min-w-0">
+    <div className="flex items-start justify-between gap-4">
+      <div className="min-w-0 text-xl font-semibold leading-snug">
+        The Digital and Intelligence Service
+      </div>
 
-  {/* fixed logo slot */}
-  <div className="relative h-10 w-[110px] flex-none">
-    <Image
-      src="/images/DIS-LOGO-60e543.jpg"
-      alt="DIS"
-      fill
-      className="object-contain"
-      sizes="110px"
-    />
+      <div className="relative h-10 w-[110px] flex-none">
+        <Image
+          src="/images/DIS-LOGO-60e543.jpg"
+          alt="DIS"
+          fill
+          sizes="110px"
+          className="object-contain"
+        />
+      </div>
+    </div>
+
+    <p className="mt-3 text-gray-600 whitespace-normal break-words">
+      Spent 2 years conducting open-source research and development for counter-terrorism military intelligence.
+    </p>
   </div>
 </div>
-
-<p className="mt-3 text-gray-600 whitespace-normal break-words">
-  Spent 2 years conducting open-source research and development for counter-terrorism military intelligence.
-</p>
 
                 
               </div>
