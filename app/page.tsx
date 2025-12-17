@@ -146,7 +146,7 @@ export default function Home() {
         <section id="school-work" className="mt-16">
           <h2 className="text-2xl font-semibold">Work and skills</h2>
           <p className="mt-3 text-gray-600">
-            A glimpse into the work I've done and skills I've developed. Scroll to see more.
+            A glimpse into the work I've done and skills I've developed over the past few years. Scroll to see more.
           </p>
 
           {/* Horizontal carousel */}
@@ -202,24 +202,27 @@ export default function Home() {
                 </div>
                 
 <div className="snap-start w-[320px] sm:w-[420px] flex-none rounded-2xl border bg-white/80 p-5 shadow-sm">
-  <div className="flex items-center justify-between gap-6">
-    <div className="min-w-0">
-      <div className="text-xl font-semibold">The Digital and Intelligence Service</div>
-      <p className="mt-2 text-gray-600 whitespace-normal break-words">
-        Conducted open-source intelligence for counter-terrorism military intelligence.
-      </p>
+  <div className="min-w-0">
+    <div className="flex items-start justify-between gap-4">
+      <div className="text-xl font-semibold leading-snug">
+        The Digital and Intelligence Service
+      </div>
 
       <Image
-                  src="/images/DIS-LOGO-60e543.jpg"
-                  alt="DIS"
-                  width={200}
-                  height={200}
-                  className="h-20 w-20 shrink-0 rounded-xl object-contain"
-                />
-      
+        src="/images/DIS-LOGO-60e543.jpg"
+        alt="DIS"
+        width={80}
+        height={80}
+        className="h-20 w-20 shrink-0 rounded-xl object-contain"
+      />
     </div>
+
+    <p className="mt-2 text-gray-600 whitespace-normal break-words">
+      Conducted open-source intelligence for counter-terrorism military intelligence.
+    </p>
   </div>
 </div>
+
                 
               </div>
             </div>
